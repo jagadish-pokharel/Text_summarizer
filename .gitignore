@@ -1,0 +1,24 @@
+# Python specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.ipynb_checkpoints/ 
+.pytest_cache/
+.mypy_cache/
+.vscode/
+
+# Hugging Face specific ignores
+# IGNORE THE SAVED FINE-TUNED MODEL AND TOKENIZER
+# These files are too large for GitHub directly.
+my_bert_qa_model/
+# Ignore training results and logs
+qa_results/
+qa_logs/
+
+# Dataset cache and downloaded data
+.cache/
+data/
